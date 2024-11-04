@@ -173,3 +173,4 @@ function changePortfolioItem(dir) {
         document.querySelector(".pp-overlay").classList.remove(dir);
     }, 1000);
 }
+
