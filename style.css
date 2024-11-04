@@ -480,9 +480,9 @@ button {
 
 .about-content img {
     max-width: 150px;
-    border: 5px solid var(--dark-light);
+    /* border: 5px solid var(--dark-light);
     border-radius: 30px;
-    margin: 0 0 15px;
+    margin: 0 0 15px; */
 }
 
 .about-content h1 {
