@@ -70,13 +70,6 @@ ul {
     flex-wrap: wrap;
 }
 
-.videos-row {
-    display: flex;
-    gap: 0px;
-    justify-content: space-around;
-    margin-left: -30px;
-}
-
 .hidden {
     display: none !important;
 }
@@ -870,6 +863,12 @@ button {
     color: var(--main);
 }
 
+.general-info{
+        max-width: 75%;
+        margin: 0 auto;
+        padding: 20px;
+}
+
 .pp-footer {
     padding: 40px 0 0;
     display: flex;
@@ -933,31 +932,49 @@ button {
         font-size: 16px;
     }
 }
-/* Seccionado */
-.general-info1 {
-    max-width: 75%;
-    margin: 0 auto;
-    padding: 20px;
-    /* font-family: Arial, sans-serif; */
-}
 
-.section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
+/*Parte de la Paleta de Diseño*/
+.hover-text {
+    background-color: ""; /* color de fondo por defecto */
+    transition: background-color 0.2s ease; /* animación de cambio de color */
+  }
+  
+  .hover-text:hover {
+    background-color: #4E7BBE; /* color de fondo al pasar el ratón */
+  }
 
-.section p {
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-}
+  .hover-text2 {
+    background-color: ""; /* color de fondo por defecto */
+    transition: background-color 0.2s ease; /* animación de cambio de color */
+  }
+  
+  .hover-text2:hover {
+    background-color:#A4A0DD; /* color de fondo al pasar el ratón */
+  }
 
-.section img {
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
+  .hover-text3 {
+    background-color: ""; /* color de fondo por defecto */
+    transition: background-color 0.2s ease; /* animación de cambio de color */
+  }
+  
+  .hover-text3:hover {
+    background-color: #8477CD; /* color de fondo al pasar el ratón */
+  }
 
+  .hover-text4 {
+    background-color: ""; /* color de fondo por defecto */
+    transition: background-color 0.2s ease; /* animación de cambio de color */
+  }
+  
+  .hover-text4:hover {
+    background-color: #080E17; /* color de fondo al pasar el ratón */
+  }
+
+  .hover-text5 {
+    background-color: ""; /* color de fondo por defecto */
+    transition: background-color 0.2s ease; /* animación de cambio de color */
+  }
+  
+  .hover-text5:hover {
+    background-color: #F9FAFC; /* color de fondo al pasar el ratón */
+  }
